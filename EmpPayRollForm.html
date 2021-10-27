@@ -14,7 +14,7 @@
   <!-- UC 1 -->
   <header class="header-content header">
     <div class="logo-content">
-      <img src="C:\Users\sunil\Html_Css\Emp_PayrollApp\Assets\logo.jpg" alt="" width="3%" height="3%">
+      <img src="C:\Users\sunil\Html_Css\Emp_PayrollApp\Assets\logo.jpg" alt="logo" width="3%" height="3%">
       <div>
         <span class="emp-text">EMPLOYEE</span><br>
         <span class="emp-text emp-payroll">PAYROLL</span>
@@ -24,7 +24,7 @@
 
   <!--UC2-->
   <div class="form-content">
-    <form class="form" action="#" onsubmit="save(event);return false">
+    <form class="form" action="#">
       <div class="form-head"> Employee payroll form </div>
       <div class="row-content">
         <label class="label text" for="name">Name</label>
@@ -41,18 +41,21 @@
             <img class="profile" id="image1"
               src="C:\Users\sunil\Html_Css\Emp_PayrollApp\Assets\profile_pics\Ellipse -1.png">
           </label>
+
           <label>
             <input type="radio" id="profile2" name="profile"
               value="C:\Users\sunil\Html_Css\Emp_PayrollApp\Assets\profile_pics\Ellipse -2.png" required>
             <img class="profile" id="image2"
               src="C:\Users\sunil\Html_Css\Emp_PayrollApp\Assets\profile_pics\Ellipse -2.png">
           </label>
+
           <label>
             <input type="radio" id="profile3" name="profile"
               value="C:\Users\sunil\Html_Css\Emp_PayrollApp\Assets\profile_pics\Ellipse -3.png" required>
             <img class="profile" id="image3"
               src="C:\Users\sunil\Html_Css\Emp_PayrollApp\Assets\profile_pics\Ellipse -3.png">
           </label>
+
           <label>
             <input type="radio" id="profile4" name="profile"
               value="C:\Users\sunil\Html_Css\Emp_PayrollApp\Assets\profile_pics\Ellipse -4.png" required>
@@ -60,6 +63,7 @@
               src="C:\Users\sunil\Html_Css\Emp_PayrollApp\Assets\profile_pics\Ellipse -4.png">
           </label>
         </div>
+      </div>
 
         <!--UC4-->
         <!--Adding gender to the form-->
@@ -99,7 +103,7 @@
         <!--UC5 payroll form with start date-->
         <div class="row-content">
           <label class="label text" for="startDate">startDate</label>
-        </div>
+        
         <select name="Day" id="Day">
           <option value="1">1</option>
           <option value="2">2</option>
@@ -154,6 +158,8 @@
           <option value="2017">2017</option>
           <option value="2016">2016</option>
         </select>
+        </div>
+      
         <!-- UC6 -->
         <div class="row-content">
           <label class="label text" for="notes">Notes</label>
