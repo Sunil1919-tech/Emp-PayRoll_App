@@ -99,7 +99,7 @@ label {
 .input {
     width: 100%;
     padding: 12px;
-    bottom: 1px solid rgb(228, 231, 183);
+    bottom: 1px solid rgba(168, 168, 167, 0.822);
     border-radius: 4px;
     resize: vertical;
 }
