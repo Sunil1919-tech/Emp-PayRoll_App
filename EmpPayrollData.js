@@ -1,4 +1,4 @@
-class EmployeePayrollData {
+class EmpPayrollData {
 
     //getter and setter method
     get id() { return this._id; }
